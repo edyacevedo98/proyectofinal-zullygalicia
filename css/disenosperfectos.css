@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+/*Horma Perfecta*/
+
+     /*slider*/
+/*slider*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 30%;
+}
+
+footer{
+  background: #e79d92;
+  height: auto;
+  margin: 10px;
+  border-radius: 30px;
+  text-align: center;
+  color:rgb(245, 69, 69);
+  padding: 10px;
+  width: 98,5%;
+  }
+  
+
+  
+footer .socialmedia{
+  padding-bottom: 20px;
+  height: 25%;
+  width: 25%;
+  display: flex;
+  margin: auto;
+  }
+  
+  
+  footer.socialmedia ul{
+      padding: 15px;
+      margin: 10px;
+      
+      }
+      
+      footer.socialmedia ul li{
+          display: inline;
+          margin-right: 20px;
+          
+      }
+ /* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+ @media (min-width: 768px) and (max-width: 1024px){}
+
+ /* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+  
+ @media (min-width: 481px) and (max-width: 767px){}
+
+ /* ##Dispositivo = Smartphones de 320px a 479px */
+  
+ @media (min-width: 320px) and (max-width: 480px){}     

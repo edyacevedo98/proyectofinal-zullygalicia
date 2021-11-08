@@ -1,0 +1,312 @@
+ /*Contactanos*/
+ *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100%; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #fdf2ef;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+
+  
+  .logo{
+    padding: 10px;
+    width: 15%;
+    height:auto;
+    }
+  .contact_form{  
+    width: 440px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 60px;
+    padding-bottom: 20px;  
+   
+    padding-left: 30px; 
+  }
+  
+
+  
+  input{
+    background-color: #f3d2c9;
+    width: 390px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: #e79d92; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  
+  
+  textarea{
+    background-color: #f3d2c9; 
+    width: 390px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 2px; 
+    border-color: #e79d92; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: #f3d2c9; 
+    border-color: #e79d92; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 390px;   
+    cursor: pointer;
+    
+  }
+  
+  
+  button p{
+    color: 1a9a8d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    padding-bottom: 80px;
+   
+  }
+
+  button:hover{
+    background: #e79d92; 
+  }
+  
+  button p:hover{
+    color:#1a9a8d; 
+  }
+
+  span{
+    color: #1a9a8d; 
+    text-align: center;
+  }
+  
+  
+  .aviso{
+    font-size: 13px;  
+    color: #1a9a8d; 
+    text-align: center; 
+  }
+  
+  
+  h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding-bottom: 20px; 
+    color:  #1a9a8d; 
+  }
+  
+  
+  h3{
+    font-size: 16px; 
+    padding-bottom: 15px;
+    color: #00d9d1;
+  }
+  
+  
+  p{
+    font-size: 14px; 
+    color: #1a9a8d;  
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #bcf5d6;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #bcf5d6;
+  }
+  
+  
+  .formulario input:focus{
+    outline:0;
+    border: 2px solid #1a9a8d;
+  }
+  
+  
+  .formulario textarea:focus{
+    outline:0;
+    border: 2px solid #1a9a8d;
+    padding-bottom: 20px;
+  }
+  
+  footer{
+    background: #e79d92;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color:rgb(245, 69, 69);
+    padding: 10px;
+    width: 98,5%;
+    }
+    
+
+    
+footer .socialmedia{
+    padding-top: 20px;
+            padding-bottom: 10px;
+            height: 25%;
+            width: 25%;
+            display: flex;
+           margin: auto;
+    }
+    
+    
+    footer.socialmedia ul{
+        margin: 10px;
+        
+        }
+        
+        footer.socialmedia li{
+            display: inline;            
+        }
+
+ /* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+ @media (min-width: 768px) and (max-width: 1024px){
+
+  footer{
+    background: #d62828;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color:rgb(245, 69, 69);
+    padding: 10px;
+    width: 98,5%;
+    }
+    
+
+    
+footer .socialmedia{
+    padding-top: 20px;
+            padding-bottom: 10px;
+            height: 25%;
+            width: 25%;
+            display: flex;
+           margin: auto;
+    }
+    
+    
+    footer.socialmedia ul{
+        margin: 10px;
+        
+        }
+        
+        footer.socialmedia li{
+            display: inline;            
+        }
+ }
+
+ /* ##Dispositivo = Tablets, Mobiles de 481px a 767px */
+  
+ @media (min-width: 481px) and (max-width: 767px){
+
+  footer{
+    background: #d62828;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color:rgb(245, 69, 69);
+    padding: 10px;
+    width: 98,5%;
+    }
+    
+
+    
+footer .socialmedia{
+    padding-top: 20px;
+            padding-bottom: 10px;
+            height: 25%;
+            width: 25%;
+            display: flex;
+           margin: auto;
+    }
+    
+    
+    footer.socialmedia ul{
+        margin: 10px;
+        
+        }
+        
+        footer.socialmedia li{
+            display: inline;            
+        }
+
+ }
+
+ /* ##Dispositivo = Smartphones de 320px a 479px */
+  
+ @media (min-width: 320px) and (max-width: 480px){
+
+  footer{
+    background: #d62828;
+    height: 100%;
+    margin: 5%;
+    border-radius:20px;
+    text-align: center;
+    color:rgb(245, 69, 69);
+    padding: 10px;
+    width: 150%;
+    }
+    
+
+    
+footer .socialmedia{
+    padding-top: 20px;
+            padding-bottom: 20px;
+            height: 25%;
+            width: 25%;
+            display: flex;
+           margin: auto;
+    }
+    
+    
+    footer.socialmedia ul{
+        padding: 15px;
+        margin: 10px;
+        
+        }
+        
+        footer.socialmedia li{
+            display: inline;
+            margin-right: 20px;
+            
+        }
+        img{
+          width: 100%;
+          height: auto;
+          }
+      
+ }

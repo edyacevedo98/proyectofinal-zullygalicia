@@ -1,0 +1,232 @@
+  /*Pagina Conocenos*/
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    padding:0px 0px 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f4f4f2;
+    }
+
+
+        .logo{
+            padding: 10px;
+            width: 8%;
+            height:auto;
+            }
+img{
+width: 100%;
+height: auto;
+}
+
+.poder p{
+
+    font-size: 25px;
+    color: #1a9a8d;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.poder strong{
+    font-size: 35px;
+    color: #00d9d1;
+    text-align: center;
+}
+
+
+footer{
+    background: #e79d92;
+    height: auto;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: center;
+    color:rgb(245, 69, 69);
+    padding: 10px;
+    width: 98,5%;
+    }
+    
+
+    
+footer .socialmedia{
+    padding-bottom: 20px;
+    height: 25%;
+    width: 25%;
+    display: flex;
+    margin: auto;
+    }
+    
+    
+    footer.socialmedia ul{
+        padding: 15px;
+        margin: 10px;
+        
+        }
+        
+        footer.socialmedia ul li{
+            display: inline;
+            margin-right: 20px;
+            
+        }
+
+
+ /* ##Dispositivo = Tablets, Ipads (horizontal) 768px to 1024px */
+
+ @media (min-width: 768px) and (max-width: 1024px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    body{
+        padding:0px 0px 10px 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: #f4f4f2;
+        }
+    
+    
+            .logo{
+                padding: 10px;
+                width: 8%;
+                height:auto;
+                }
+    img{
+    width: 100%;
+    height: auto;
+    }
+    
+    .poder p{
+    
+        font-size: 25px;
+        color: #1a9a8d;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+    
+    .poder strong{
+        font-size: 35px;
+        color: #00d9d1;
+        text-align: center;
+    }
+    
+    
+    footer{
+        background: #e79d92;
+        height: auto;
+        margin: 10px;
+        border-radius: 30px;
+        text-align: center;
+        color:rgb(245, 69, 69);
+        padding: 10px;
+        width: 98,5%;
+        }
+        
+    
+        
+    footer .socialmedia{
+        padding-bottom: 20px;
+        height: 25%;
+        width: 25%;
+        display: flex;
+        margin: auto;
+        }
+        
+        
+        footer.socialmedia ul{
+            padding: 15px;
+            margin: 10px;
+            
+            }
+            
+            footer.socialmedia ul li{
+                display: inline;
+                margin-right: 20px;
+                
+            }
+ }
+
+   /* ##Dispositivo = Smartphones de 320px a 479px */
+  
+ @media (min-width: 320px) and (max-width: 480px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    
+    
+    body{
+        padding:0px 0px 10px 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background: #f4f4f2;
+        }
+    
+    
+            .logo{
+                padding: 10px;
+                width: 15%;
+                height:auto;
+                }
+    img{
+    width: 150%;
+    height:180% auto;
+    }
+    
+
+    .poder p{
+    
+        font-size: 15px;
+        color: #1a9a8d;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+    }
+    
+    .poder strong{
+        font-size: 25px;
+        color: #00d9d1;
+        text-align: center;
+    }
+    
+    footer{
+        background: #d62828;
+        height:80%;
+        margin: 5%;
+        border-radius:20px;
+        text-align: center;
+        color:rgb(245, 69, 69);
+        padding: 10px;
+        width: 90%;
+        }
+        
+    
+        
+    footer .socialmedia{
+        padding-top: 20px;
+                padding-bottom: 20px;
+                height: 25%;
+                width: 25%;
+                display: flex;
+               margin: auto;
+        }
+        
+        
+        footer.socialmedia ul{
+            padding: 15px;
+            margin: 10px;
+            
+            }
+            
+            footer.socialmedia li{
+                display: inline;
+                margin-right: 20px;
+                
+            }
+  }
